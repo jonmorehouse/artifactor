@@ -1,0 +1,7 @@
+# build config for builder.jm.house
+---
+name: artifactor
+builds:
+  - kind: bundle
+    latest: true
+    dockerfile: Dockerfile.build
